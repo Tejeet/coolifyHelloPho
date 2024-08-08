@@ -1,5 +1,5 @@
 <?php
 
-echo "Hey There i am from Cloolify";
+echo "I am Coolify";
 
 ?>
