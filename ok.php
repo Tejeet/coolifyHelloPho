@@ -1,5 +1,5 @@
 <?php
 
-echo "I am Demo PHP Page";
+echo "OKK File Path check";
 
 ?>
