@@ -1,5 +1,5 @@
 <?php
 
-echo "I am Coolify";
+echo "I am Demo PHP Page";
 
 ?>
