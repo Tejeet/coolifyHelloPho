@@ -1,7 +1,7 @@
 <?php
-define('DB_SERVER','94.136.185.117');
+define('DB_SERVER','localhost');
 define('DB_USER','root');
-define('DB_PASS' ,'myRot@554414');
+define('DB_PASS' ,'myRoot@554414');
 define('DB_NAME', 'echo.fleetsapi.com');
 
 define('DIR','https://workdesk.techpulsesolution.com/');
