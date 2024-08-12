@@ -1,5 +1,5 @@
 <?php
-define('DB_SERVER','localhost');
+define('DB_SERVER','mysql');
 define('DB_USER','root');
 define('DB_PASS' ,'myRot@554414');
 define('DB_NAME', 'echo.fleetsapi.com');
