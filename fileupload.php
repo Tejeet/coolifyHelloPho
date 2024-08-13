@@ -15,14 +15,13 @@ if (isset($_POST['submit'])) {
             // Uncomment the code below to insert into database
             // $qry = "INSERT INTO tbl_staff (name, desig, image) VALUES ('$name', '$design', '$on')";
             // $res = mysqli_query($con, $qry);
-            
             // if ($res) {
             //     $_SESSION['msg'] = "File Uploaded Successfully";
             // } else {
             //     $_SESSION['msg'] = "Could not upload File";
             // }
         } else {
-            $_SESSION['msg'] = "File upload failed";
+            $_SESSION['msg'] = "File upload Failed";
         }
     } else {
         $_SESSION['msg'] = "No file selected for upload";
