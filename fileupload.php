@@ -46,7 +46,6 @@ if (isset($_POST['submit'])) {
        <td>Enter Your Name</td>
        <td><input type="text" name="t1"></td>
    </tr>
-
    <tr>
        <td>Enter Your Designation</td>
        <td><input type="text" name="t2"></td>
