@@ -3,8 +3,8 @@ include("config.php");
 
   if(isset($_GET['add']))
    {
-	   $name=$_POST['t1'];
-	   $design=$_POST['t2'];	   
+	   $name=$_GET['t1'];
+	   $design=$_GET['t2'];	   
 	   
 	   if($_FILES['upload'])
 	    {
@@ -39,7 +39,7 @@ include("config.php");
 <body>
 <center>
 <table border="1">
-<form name="frm" action="<?php echo $_SERVER['PHP_SELF'];?>?add=333" method="post" enctype="multipart/form-data">
+<form name="frm" action="<?php echo $_SERVER['PHP_SELF'];?>?add=333" method="get" enctype="multipart/form-data">
    <tr>
    <td>Enter Your Name</td>
    <td><input type="text" name="t1"></td>
@@ -57,7 +57,7 @@ include("config.php");
 
    <tr>
      <td colspan="2" align="center">
-      <input type="submit" value="Upload" />
+      <input type="submit" name="submit"  value="Upload" />
      </td>
    </tr>
 </form>   
