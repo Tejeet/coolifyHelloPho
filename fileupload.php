@@ -1,5 +1,5 @@
 <?php
-include("dbconfig.php");
+include("config.php");
 session_start();
 
   if(isset($_GET['add']))
